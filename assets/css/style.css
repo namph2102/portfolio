@@ -21,12 +21,21 @@ html {
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
 }
-
+body{
+    background-color: var(--body-bg);
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar{
+    width: 6px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+    border-radius: 12px;
+}
 .app {
     width: 100%;
-    height: 100vh;
     position: relative;
-    background-color: var(--body-bg);
+    height: 100vh;
 }
 
 .app__decorate {
@@ -34,9 +43,9 @@ html {
     left: 0;
     top: 0;
     bottom: 0;
-    width: 30%;
+    width: 35%;
     background-color: var(--main-color);
-    clip-path: polygon(0 0, 50% 0, 70% 100%, 0% 100%);
+    clip-path: polygon(0 0, 40% 0, 70% 100%, 0% 100%);
 }
 
 .app__container {
@@ -82,7 +91,7 @@ html {
     border-radius: 30px;
     position: relative;
     overflow: hidden;
-  
+
 }
 
 .btn-text {
@@ -106,6 +115,7 @@ html {
     transition: all 0.4s ease;
 
 }
+
 .btn-icon i {
     position: absolute;
     top: 50%;
@@ -135,7 +145,91 @@ html {
     background-color: var(--main-color);
     padding: 16px 64px 16px 32px;
 }
-.user__footer{
+
+.user__footer {
     display: flex;
     margin-top: 24px;
+}
+
+/* darkmode */
+.app__dark--mode {
+    position: fixed;
+    top: 40px;
+    right: 20px;
+}
+
+/* button effect */
+.btn__item {
+    background-color: var(--toggle-color);
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: var(--txt-color);
+    font-size: 18px;
+}
+
+.btn__item.active {
+    background-color: var(--main-color);
+}
+
+
+/* direction */
+.app__direct {
+    position: fixed;
+    top: 25%;
+    right: 1%;
+}
+.nav__box {
+    list-style-type: none;
+}
+
+.nav__item .btn__item i {
+    font-size: 16px;
+}
+
+.nav__box li {
+    margin: 24px 0;
+}
+
+.nav__box .nav__item {
+    text-decoration: none;
+    color: var(--txt-color);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    border-radius: 40px;
+}
+
+.nav__box .nav__item h2 {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    height: 50px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: var(--main-color);
+    min-width: 100px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    border-radius: 40px;
+    padding-right: 40px;
+    padding-left: 30px;
+    z-index: -1;
+    text-shadow: 1px 0px 0px black;
+     transition: 0.2s ease;
+     visibility: hidden;
+}
+
+.nav__box .nav__item:hover .btn__item{
+    background-color: var(--main-color);
+}
+.nav__box .nav__item:hover h2{
+    right: 10px;
+     visibility: visible;
+     font-size: 16px;
 }

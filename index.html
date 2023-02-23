@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/resposive.css">
+        <title>Portfolio</title>
 </head>
 
 <body>
@@ -20,13 +21,16 @@
         <div class="app__decorate">
 
         </div>
+        <div class="app__avata--box">
+            <img class="app__avata" src="/public/image/avata.jpg" alt="">
+        </div>
         <div class="app__container">
             <div class="user__content">
                 <div class="user__header">
                     <h1 class="user__header--title">
-                        <span class="color--hightlight"> - I'm Pham Hoai Nam</span>
+                        <span class="color--hightlight"> <i class="fa-solid fa-minus me-2 d-lg-inline-block d-none"></i> I'm Pham Hoai Nam</span>
                         <br>
-                        <span class="ms-5 mt-3">Web Developer !</span>
+                        <span class="ms-5 d-lg-inline-block d-none"></span> <span class="ms-0 ms-lg-4 mt-3">Web Developer !</span>
                     </h1>
                 </div>
                 <div class="user__body">
@@ -56,9 +60,45 @@
                 </div>
             </div>
         </div>
-        <div class="app__avata--box">
-            <img class="app__avata" src="/public/image/avata.jpg" alt="">
+       
+        <div class="app__dark--mode">
+                <button class="btn__item"><i class="fa-regular fa-lightbulb"></i></button>
         </div>
+        <nav class="app__direct">
+            <ul class="nav__box">
+                <li>
+                    <a class="nav__item" href="http://">
+                        <h2>HOME</h2>
+                        <button class="btn__item"> <i class="fa-solid fa-house"></i></button>
+                       
+                    </a>
+                </li>
+                <li>
+                    <a class="nav__item" href="http://">
+                        <h2>Portfolio</h2>
+                        <button class="btn__item active">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav__item" href="http://">
+                        <h2>about</h2>
+                        <button class="btn__item">
+                            <i class="fa-solid fa-user"></i>
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav__item" href="http://">
+                        <h2>contact</h2>
+                        <button class="btn__item">
+                            <i class="fa-solid fa-id-card-clip"></i>
+                        </button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </div>
 </body>
 

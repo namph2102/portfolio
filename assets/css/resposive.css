@@ -1,0 +1,63 @@
+@media screen and (max-width:1048px) {
+    .app__container{
+        top: 10%;
+    }
+    .user__header--title{
+        font-size: 4.2rem;
+    }
+}
+@media screen and (max-width:992px) {
+    .app__decorate{
+        display: none;
+    }
+    .app__avata--box{
+        position: unset;
+        text-align: center;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .app__avata{
+        width: 270px;
+        height: 270px;
+        border-radius: 50%;
+    }
+    .app__container{
+        position: unset;
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+    }
+    .user__header{
+        margin: 12px 0;
+    }
+    .user__des{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .user__footer{
+        width: 100%;
+       justify-content: center;
+    }
+    .app__direct{
+        top: unset;
+        right: unset;
+        bottom: 0%;
+        width: 100%;
+    }
+    .nav__box{
+        display: flex;
+        justify-content: center;
+        background-color: #2b2a2a;
+        padding: 8px 0;
+        margin: 0;
+    }
+    .nav__box .btn__item{
+        background-color: #444;
+    }
+    .nav__box li{
+        margin: 0 24px;
+    }
+    .nav__box li h2{
+        display: none !important;
+    }
+}
