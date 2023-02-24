@@ -24,6 +24,8 @@ html {
 body{
     background-color: var(--body-bg);
     scroll-behavior: smooth;
+    position: relative;
+    overflow: hidden;
 }
 body::-webkit-scrollbar{
     width: 6px;
@@ -44,6 +46,7 @@ body::-webkit-scrollbar-thumb{
     top: 0;
     bottom: 0;
     width: 35%;
+    height: 100vh;
     background-color: var(--main-color);
     clip-path: polygon(0 0, 40% 0, 70% 100%, 0% 100%);
 }

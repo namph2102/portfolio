@@ -5,8 +5,15 @@
     .user__header--title{
         font-size: 4.2rem;
     }
+    body{
+        overflow: auto;
+    }
 }
 @media screen and (max-width:992px) {
+    .app{
+        height: auto;
+
+    }
     .app__decorate{
         display: none;
     }
@@ -37,8 +44,10 @@
     .user__footer{
         width: 100%;
        justify-content: center;
+       padding-bottom: 20px;
     }
     .app__direct{
+        position: sticky;
         top: unset;
         right: unset;
         bottom: 0%;

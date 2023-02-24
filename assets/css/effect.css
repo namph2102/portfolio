@@ -1,0 +1,38 @@
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: var(--nav-bg-color);
+    z-index: 99;
+   
+}
+.overlay--left{
+    left: 0;
+    right: 50%;
+     animation: effect__overlay--right 0.4s ease-in forwards;
+}
+.overlay--right{
+    left: 50%;
+    right: 0;
+    animation: effect__overlay--left  0.4s ease-in forwards;
+}
+@keyframes effect__overlay--left {
+    100%{
+        left: 100% ;
+    }
+}
+@keyframes effect__overlay--right {
+    100%{
+        right: 100% ;
+    }
+}
+
+.app{
+    animation: effect__slide 0.5s ease-in forwards;
+    transform: translateY(10%);
+}
+@keyframes effect__slide {
+    100%{
+        transform: translateY(0%);
+    }
+}
