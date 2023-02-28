@@ -33,3 +33,30 @@ document.querySelectorAll('.resume__box--item')
 window.addEventListener('load',()=>{
     document.documentElement.scrollIntoView();
 })
+
+// lazy loading
+
+const lazyLoading=(ImgElement)=>{
+    if(ImgElement.dataset.src){
+        const options={
+            root:null,
+            threshold:0.9,
+            rootMargin:'0px'
+        }
+        const callBack=(entries,obsever)=>{
+            const [entry]=entries;
+          if(entry.isIntersecting){
+            console.log('focus');
+            ImgElement.src=ImgElement.dataset.src;
+            ImgElement.addEventListener('load',()=>{
+                ImgElement.classList.remove('lazy__loading');
+                obsever.unobserve(ImgElement)
+            })
+          }
+        }
+    const imageObserve=new IntersectionObserver(callBack,options);
+    imageObserve.observe(ImgElement)
+    }
+}
+document.querySelectorAll('img[data-src]').forEach(img=>lazyLoading(img));
+

@@ -88,7 +88,10 @@ body::-webkit-scrollbar-thumb{
     font-size: 1.8rem;
     line-height: 1.6;
 }
-
+.user__jobs{
+    color: var(--txt-color);
+    opacity: 0.8;
+}
 .btn--group {
     min-width: 180px;
     border: 1px solid var(--main-color);
@@ -100,7 +103,7 @@ body::-webkit-scrollbar-thumb{
 
 .btn-text {
     display: block;
-    background-color: var(--body-bg);
+    background-color: var(--toggle-color);
     padding: 16px 32px 16px 64px;
     z-index: 3;
     transition: all 0.4s ease-in-out;
@@ -112,7 +115,7 @@ body::-webkit-scrollbar-thumb{
     top: 0;
     left: 0;
     background-color: var(--main-color);
-    color: var(--txt-color);
+    color: var(--reverse-color);
     width: 55px;
     height: 100%;
     border-radius: 50%;
@@ -170,7 +173,7 @@ body::-webkit-scrollbar-thumb{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    color: var(--txt-color);
+    color: var(--reverse-color);
     font-size: 18px;
 }
 
@@ -199,7 +202,7 @@ body::-webkit-scrollbar-thumb{
 
 .nav__box .nav__item {
     text-decoration: none;
-    color: var(--txt-color);
+    color: var(--reverse-color);
     display: flex;
     justify-content: end;
     align-items: center;

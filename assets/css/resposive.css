@@ -91,4 +91,7 @@
     .content__title .content__title--sub__head{
         font-size: 6.8rem !important;
     }
+    .btn--group {
+        min-width: 150px;
+    }
 }

@@ -216,6 +216,9 @@ hr:not([size]) {
     height: 60px;
     object-fit: cover;
 }
+.lazy__loading{
+   filter: blur(4px);
+}
 /* resume */
 
 .resume__item{
