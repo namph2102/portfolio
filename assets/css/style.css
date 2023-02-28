@@ -25,7 +25,8 @@ body{
     background-color: var(--body-bg);
     scroll-behavior: smooth;
     position: relative;
-    overflow: hidden;
+    overflow-y: hidden;
+    height: 100vh;
 }
 body::-webkit-scrollbar{
     width: 6px;
@@ -89,7 +90,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .btn--group {
-    width: 180px;
+    min-width: 180px;
     border: 1px solid var(--main-color);
     border-radius: 30px;
     position: relative;
