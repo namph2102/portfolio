@@ -5,7 +5,7 @@
     --toggle-color: #252525;
     --nav-bg-color: #2b2a2a;
     --cursor-color: 255, 199, 64;
-    --title-bg: hsla(0, 0%, 100%, .07);
+    --title-bg: hsla(0, 4%, 33%, 0.07);
     --reverse-color: #fff;
 }
 
@@ -45,6 +45,7 @@ body {
     text-align: center;
     font-weight: 900;
     letter-spacing: 10px;
+    color: var(--title-bg);
 }
 .info{
     transform: translate(-80px,80px);
@@ -186,6 +187,7 @@ hr:not([size]) {
     flex-direction: column;
     transform: translateY(80px);
     transition: 0.8s linear; 
+    margin-bottom: 30px;
 }
 .skill__item.effect{
     transform: translateY(0);
@@ -265,18 +267,19 @@ hr:not([size]) {
     opacity: 0.2;
 }
 .resume__item--attach__icon i{
-    color: var(--txt-color);
+    color: #fff;
     font-size: 1.6rem;
 }
 .resume__item--content__time{
-    text-align: center;
+    display: inline-block;
     min-width: 60px;
-    background-color: var(--nav-bg-color);
     padding: 4px 12px;
+    text-align: center;
+    background-color: var(--nav-bg-color);
     border-radius: 20px;
     font-size: 1.4rem;
     margin-bottom: 8px;
-    display: inline-block;
+    color: #fff;
 
 }
 .resume__item--content__title{

@@ -1,62 +1,54 @@
-// scroll effect 
-const  effectObserve=(Element,classEffect='effect')=>{
-    const options={
-        root:null,
-        threshold:0,
-        rootMargin: '0px',
-    }
-    const objserveCallback=(entries,observe)=>{
-        const [entry]=entries;
-        if(entry.isIntersecting){
-            Element.classList.add(classEffect);
-            observe.unobserve(Element);
-        }
-        // }else{
-        //     Element.classList.remove(classEffect);
-        // }
-       
-    }
-    const observe=new IntersectionObserver(objserveCallback,options);
-    observe.observe(Element);
-}
-//effect info
-effectObserve(document.querySelector('.info'))
-// effect info cart
-document.querySelectorAll('.info__more--cart')
-.forEach(el=>effectObserve(el))
+import changeTheme from "../module/theme.js";
+import { effectObserve , lazyLoading } from "../module/observe.js";
+
+
+
+(async function () {
+
+  // change Theme Dar kLight
+  changeTheme();
+  
+  const res = await fetch("/assets/json/skills.json");
+  const mySkills = await res.json();
+
+  const skill__box_container = document.querySelector(".skill__box .row");
+  skill__box_container.innerHTML = mySkills.map(
+    (skill) =>
+      `
+    <div class="col-lg-3 col-md-4 col-6">
+        <figure class="skill__item">
+            <div class="language__avata">
+                <img class="lazy__loading" src="/public/image/react.png" data-src="${skill.image}" alt="${skill.title}">
+             </div>
+            <figcaption class="skill__item--des">${skill.title}</figcaption>
+        </figure>
+    </div>
+    `
+  ).join('');
+
+
+/*      -- when scrolling --     */
+
+// lazyloading images
+  const listImages= document.querySelectorAll("img[data-src]");
+  listImages.forEach((img) => lazyLoading(img));
 //skill effect
-document.querySelectorAll('.skill__item')
-.forEach(el=>effectObserve(el))
+document.querySelectorAll(".skill__item").forEach((el) => effectObserve(el));
+})();
 
-document.querySelectorAll('.resume__box--item')
-.forEach(el=>effectObserve(el))
-window.addEventListener('load',()=>{
-    document.documentElement.scrollIntoView();
-})
+//effect info
+const infos_container=document.querySelector(".info");
+effectObserve(infos_container);
 
-// lazy loading
+// effect info cart
+const listCart=document.querySelectorAll(".info__more--cart");
+listCart.forEach((el) => effectObserve(el));
 
-const lazyLoading=(ImgElement)=>{
-    if(ImgElement.dataset.src){
-        const options={
-            root:null,
-            threshold:0.9,
-            rootMargin:'0px'
-        }
-        const callBack=(entries,obsever)=>{
-            const [entry]=entries;
-          if(entry.isIntersecting){
-            console.log('focus');
-            ImgElement.src=ImgElement.dataset.src;
-            ImgElement.addEventListener('load',()=>{
-                ImgElement.classList.remove('lazy__loading');
-                obsever.unobserve(ImgElement)
-            })
-          }
-        }
-    const imageObserve=new IntersectionObserver(callBack,options);
-    imageObserve.observe(ImgElement)
-    }
-}
-document.querySelectorAll('img[data-src]').forEach(img=>lazyLoading(img));
+// resume effect 
+const resumes=document.querySelectorAll(".resume__box--item");
+resumes.forEach((resume) => effectObserve(resume));
+
+window.addEventListener("load", () => {
+  document.documentElement.scrollIntoView();
+});
 

@@ -68,6 +68,9 @@
     .nav__box li h2{
         display: none !important;
     }
+    .btn__item{
+        background-color: #444;
+    }
 }
 @media screen and (max-width: 650px){
     .content__title .content__title--head{
