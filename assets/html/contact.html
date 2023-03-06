@@ -38,7 +38,7 @@
           <h1 class="content__title--head">GET IN <span>TOUCH</span></h1>
           <h2 class="content__title--sub__head">CONTACT</h2>
         </div>
-        <div class="wrapper__contact"> 
+        <div class="wrapper__contact">
           <div class="row">
             <div class="col-md-4 col-12">
               <div class="contact">
@@ -50,7 +50,7 @@
                 </p>
                 <ul class="contact__box">
                   <li>
-                    <a  class="contact__item">
+                    <a class="contact__item">
                       <div class="contact__icon">
                         <i class="fa-solid fa-location-dot"></i>
                       </div>
@@ -61,18 +61,20 @@
                     </a>
                   </li>
                   <li>
-                    <a  class="contact__item">
+                    <a class="contact__item">
                       <div class="contact__icon">
                         <i class="fa-solid fa-location-dot"></i>
                       </div>
                       <div class="contact__des">
                         <h3 class="contact__des--title">EMAIL</h3>
-                        <p class="contact__des--descript">namph2102@gmail.com</p>
+                        <p class="contact__des--descript">
+                          namph2102@gmail.com
+                        </p>
                       </div>
                     </a>
                   </li>
                   <li>
-                    <a  class="contact__item">
+                    <a class="contact__item">
                       <div class="contact__icon">
                         <i class="fa-solid fa-location-dot"></i>
                       </div>
@@ -85,45 +87,66 @@
                 </ul>
 
                 <button class="btn__info">
-                    <a href="http://" target="_blank">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
+                  <a href="http://" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
                 </button>
                 <button class="btn__info">
-                    <a href="http://" target="_blank">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
+                  <a href="http://" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
                 </button>
               </div>
             </div>
             <div class="col-md-8 col-12">
-                <form id="form" action="">
-                    <div class="row">
-                        <div class="form--group">
-                            <input type="text" placeholder="YOUR NAME">
-                            <p class="error">Email is required</p>
-                        </div>
-                        <div class="form--group error">
-                            <input type="text" placeholder="YOUR EMAIL">
-                            <p class="error"></p>
-                        </div>
-                        <div class="form--group w-100">
-                            <input type="text" placeholder="YOUR SUBJECT">
-                            <p class="error"></p>
-                        </div>
-                        <div class="form--group w-100">
-                       <textarea name="w-100"  rows="12" placeholder="YOUR MESSAGE"> </textarea>
-                            <p class="error"></p>
-                        </div>
-                    </div>
-                    <button class="btn--group send__message">
-                        <a download="" href="/portfolio">
-                            <span class="btn-text">send message</span>
-                            <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                        </a>
-                    </button>
-                </form>
-               
+              <form id="form-1" action="/hello" method="post">
+                <div class="row">
+                  <div class="form--group">
+                    <input
+                      type="text"
+                      id="fullname"
+                      data-field="FullName"
+                      placeholder="YOUR NAME"
+                    />
+                    <p class="error"></p>
+                  </div>
+                  <div class="form--group">
+                    <input
+                      type="email"
+                      id="email"
+                      data-field="Email"
+                      placeholder="YOUR EMAIL"
+                    />
+                    <p class="error"></p>
+                  </div>
+                  <div class="form--group w-100">
+                    <input
+                      id="subject"
+                      type="text"
+                      data-field="Subject"
+                      placeholder="YOUR SUBJECT"
+                    />
+                    <p class="error"></p>
+                  </div>
+                  <div class="form--group w-100">
+                    <textarea
+                      rows="12"
+                      id="content"
+                      data-field="Content"
+                      placeholder="YOUR CONTENT"
+                    ></textarea>
+                    <p class="error"></p>
+                  </div>
+                </div>
+                <button type="submit" class="btn--group send__message">
+                  <a href="javascript:void(0)">
+                    <span class="btn-text">send message</span>
+                    <span class="btn-icon"
+                      ><i class="fa-solid fa-arrow-right"></i
+                    ></span>
+                  </a>
+                </button>
+              </form>
             </div>
           </div>
         </div>
