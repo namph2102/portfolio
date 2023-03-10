@@ -44,7 +44,9 @@ body {
   text-decoration: none;
   color: var(--txt-color);
 }
-
+.person__des .info-list li a:hover {
+  color: var(--main-color);
+}
 .person__des .info-list li span {
   opacity: 0.7;
 }

@@ -1,4 +1,14 @@
 [
-    {"id":1,"time":"2016-2017","title":"THCS - Nguyễn Văn Trỗi","description":"Bắt đầu với ngôn ngữ lập trình Pascal và tham gia các cuộc thi tin học trẻ và đạt giải khuyến khích cấp tỉnh năm lớp 9"},
-    {"id":2,"time":"2021-2023","title":"Cao đẳng FPT POLYTECHNICH","description":"Theo học chuyên ngành Front-end Developer"}
+  {
+    "id": 1,
+    "time": "2016-2017",
+    "title": "THCS - Nguyễn Văn Trỗi",
+    "description": "Bắt đầu với ngôn ngữ lập trình Pascal và tham gia các cuộc thi tin học trẻ và đạt giải khuyến khích cấp tỉnh năm lớp 9"
+  },
+  {
+    "id": 2,
+    "time": "2021-2023",
+    "title": "Cao đẳng FPT POLYTECHNICH",
+    "description": "Theo học chuyên ngành lập trình Website khóa k17 tại trường."
+  }
 ]

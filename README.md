@@ -13,7 +13,24 @@
         <h4>About Me</h4>
          <figure>
             <img src="./public/intro/about.png" alt="View About ME">
+              <img src="./public/intro/about1.png" alt="View About ME">
              <figcaption>Page About</figcaption>
         </figure>
     </li>
+     <li>
+        <h4>Portfolio</h4>
+         <figure>
+            <img src="./public/intro/profile.png" alt="View Profile">
+             <figcaption>Page Portfolio</figcaption>
+        </figure>
+    </li>
+     <li>
+        <h4>Contact me</h4>
+         <figure>
+            <img src="./public/intro/contact.png" alt="View Contact me">
+             <figcaption>Page Contact</figcaption>
+        </figure>
+    </li>
 </ul>
+
+ 
