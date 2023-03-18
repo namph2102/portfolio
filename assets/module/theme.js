@@ -26,18 +26,28 @@ const themeDarklightOptions = () => {
     textColor: "#fff",
     main: "#ffb400",
   });
-  let darkTheme = false;
-  const changeTheme = function () {
-    const { main, bodyBg, textColor } = darkTheme ? darkColor : lightColor;
-    toggleIconLight.className = darkTheme
-      ? "fa-regular fa-lightbulb"
-      : "fa-regular fa-moon";
-    darkTheme = !darkTheme;
-
+  console.log(localStorage.getItem("darkTheme"));
+  let darkTheme = localStorage.getItem("darkTheme") ?? "dark";
+  if (darkTheme == "moon") {
+    changeTheme();
+  }
+  function changeTheme() {
+    const { main, bodyBg, textColor } =
+      darkTheme === "dark" ? darkColor : lightColor;
+    toggleIconLight.className =
+      darkTheme === "dark" ? "fa-regular fa-lightbulb" : "fa-regular fa-moon";
+    localStorage.setItem("darkTheme", darkTheme);
     handleRoot("--main-color").set(main);
     handleRoot("--body-bg").set(bodyBg);
     handleRoot("--txt-color").set(textColor);
-  };
-  toggleLight.addEventListener("click", changeTheme);
+  }
+  toggleLight.addEventListener("click", () => {
+    if (darkTheme == "dark") {
+      darkTheme = "moon";
+    } else {
+      darkTheme = "dark";
+    }
+    changeTheme();
+  });
 };
 export default themeDarklightOptions;
