@@ -24,15 +24,6 @@ body {
   margin: 0;
   padding: 0;
 }
-/* .portfolio__list--item:nth-child(1) {
-  animation-delay: 0s;
-}
-.portfolio__list--item:nth-child(2) {
-  animation-delay: 0.5s;
-}
-.portfolio__list--item:nth-child(3) {
-  animation-delay: 1s;
-} */
 
 @keyframes sideEffect {
   100% {
@@ -44,6 +35,9 @@ body {
   display: flex;
   justify-content: center;
   gap: 12px;
+}
+.portfolio__container {
+  min-height: 400px;
 }
 .portfolio__list--btn__item {
   font-size: 1.6rem;
@@ -103,4 +97,137 @@ body {
 .portfolio-card:hover .portfolio-card_title span {
   transform: translateY(0);
   color: #fff;
+}
+
+.modal_profile {
+  position: fixed;
+  inset: 20px;
+  z-index: 1000;
+  background-color: #252525;
+  padding: 12px;
+  color: var(--txt-color);
+  border-radius: 12px;
+}
+.modal_profile h2 {
+  font-size: 32px;
+  color: var(--main-color);
+  border-bottom: 4px solid rgb(161, 149, 149);
+  position: relative;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  margin-left: 24px;
+}
+.modal_profile h2::after {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 30%;
+  height: 4px;
+  background-color: var(--main-color);
+}
+.modal_profile img {
+  width: 100%;
+  object-fit: cover;
+}
+.modal_profile-slider {
+  position: relative;
+}
+.profile_container-image_sub {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 12px;
+  height: 150px;
+}
+
+.profile_container-image_sub img {
+  width: 33.33%;
+  height: 150px;
+  object-fit: cover;
+  opacity: 0.25;
+  cursor: pointer;
+  position: absolute;
+  transition: 0.5s linear;
+}
+@media screen and (max-width: 500px) {
+  .profile_container-image_sub img {
+    height: 100px;
+  }
+}
+/* cssc childrent */
+
+.profile_container-image_sub img:hover {
+  opacity: 1;
+}
+.profile_container {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+}
+.profile_container img {
+  width: 100%;
+  position: absolute;
+  height: 300px;
+  transition: all 0.5s ease-in;
+}
+.profile_controller-btn {
+  background-color: transparent;
+  outline: none;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.profile_controller-btn_left {
+  left: 30px;
+}
+.profile_controller-btn_right {
+  right: 30px;
+}
+.profile_controller-btn :hover {
+  color: rgb(197, 186, 186);
+}
+.modal_profile-right_container,
+.modal_profile-right h3 {
+  font-family: sans-serif;
+  padding: 0 24px;
+}
+.modal_profile-slider_name {
+  text-transform: capitalize;
+}
+.modal_profile-right_container {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--txt-color);
+}
+.modal_profile-right_container span {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 300;
+}
+.linkdemo {
+  color: var(--main-color);
+}
+.btn_close-modal {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  font-size: 20px;
+  color: var(--main-color);
+  background-color: #252525;
+  border: 0.5px solid rgb(228, 228, 228);
+}
+.btn_close-modal:hover {
+  background-color: #575656;
+}
+.notshow {
+  display: none;
 }

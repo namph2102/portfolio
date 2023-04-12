@@ -3,45 +3,45 @@
     "id": 1,
     "kind": 2,
     "name": "movie website",
-    "frontend": "CSS, Bootstrap, JavaScript, Jquery-AJax",
-    "backend": "Laravel, Mysql",
+    "Frontend": "CSS, Bootstrap, JavaScript, Jquery-AJax",
+    "Backend": "Laravel, Mysql",
     "images": ["movie.png", 7],
-    "link": "https://movibes.online"
+    "Demo": "https://movibes.online"
   },
   {
     "id": 2,
     "kind": 2,
     "name": "music player",
-    "frontend": "CSS, Bootstrap, JavaScript, Jquery-AJax",
-    "backend": "Laravel, Mysql",
+    "Frontend": "CSS, Bootstrap, JavaScript, Jquery-AJax",
+    "Backend": "Laravel, Mysql",
     "images": ["music.png", 5],
-    "link": "https://lifemusic.website"
+    "Demo": "https://lifemusic.website"
   },
   {
     "id": 3,
     "kind": 2,
     "name": "polyfood shop",
-    "frontend": "CSS, Bootstrap, JavaScript, Jquery-AJax",
-    "backend": "Laravel, Mysql",
+    "Frontend": "CSS, Bootstrap, JavaScript, Jquery-AJax",
+    "Backend": "Laravel, Mysql",
     "images": ["food.png", 5],
-    "link": "https://polyfood.shop/"
+    "Demo": "https://polyfood.shop/"
   },
   {
     "id": 4,
     "kind": 1,
     "name": "flipped game",
-    "frontend": "CSS, Bootstrap, JavaScript, TypeScript",
-    "backend": "",
+    "Frontend": "CSS, Bootstrap, JavaScript, TypeScript",
+    "Backend": "",
     "images": ["latthe.png", 2],
-    "link": "https://latthe.namph.tech"
+    "Demo": "https://latthe.namph.tech"
   },
   {
     "id": 5,
     "kind": 1,
     "name": "portfolio",
-    "frontend": "CSS, Bootstrap, JavaScript",
-    "backend": "",
+    "Frontend": "CSS, Bootstrap, JavaScript",
+    "Backend": "",
     "images": ["profile.png", 4],
-    "link": "http://namph.tech/"
+    "Demo": "http://namph.tech/"
   }
 ]
