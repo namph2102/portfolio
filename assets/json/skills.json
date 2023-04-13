@@ -2,5 +2,6 @@
   { "id": 1, "title": "HTML", "image": "/public/image/html.png" },
   { "id": 2, "title": "CSS", "image": "/public/image/css.png" },
   { "id": 3, "title": "JavaScript", "image": "/public/image/js.png" },
-  { "id": 4, "title": "React", "image": "/public/image/react.png" }
+  { "id": 4, "title": "React", "image": "/public/image/react.png" },
+  { "id": 5, "title": "Express", "image": "/public/image/node.png" }
 ]
