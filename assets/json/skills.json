@@ -3,5 +3,7 @@
   { "id": 2, "title": "CSS", "image": "/public/image/css.png" },
   { "id": 3, "title": "JavaScript", "image": "/public/image/js.png" },
   { "id": 4, "title": "React", "image": "/public/image/react.png" },
-  { "id": 5, "title": "Express", "image": "/public/image/node.png" }
+  { "id": 5, "title": "NodeJS", "image": "/public/image/node.png" },
+  { "id": 6, "title": "MySql", "image": "/public/image/mysql.png" },
+  { "id": 5, "title": "MongoDB", "image": "/public/image/mongodb.png" }
 ]

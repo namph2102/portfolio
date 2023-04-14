@@ -3,7 +3,7 @@
     "id": 1,
     "kind": 2,
     "name": "movie website",
-    "Frontend": "CSS, Bootstrap, JavaScript, Jquery-AJax",
+    "Frontend": "CSS, Bootstrap 5, JavaScript, Jquery-AJax",
     "Backend": "Laravel, Mysql",
     "images": ["movie.png", 7],
     "Demo": "https://movibes.online"
@@ -12,25 +12,25 @@
     "id": 2,
     "kind": 2,
     "name": "music player",
-    "Frontend": "CSS, Bootstrap, JavaScript, Jquery-AJax",
+    "Frontend": "CSS, Bootstrap 5, JavaScript, Jquery-AJax",
     "Backend": "Laravel, Mysql",
     "images": ["music.png", 5],
     "Demo": "https://lifemusic.website"
   },
   {
     "id": 3,
-    "kind": 2,
-    "name": "polyfood shop",
-    "Frontend": "CSS, Bootstrap, JavaScript, Jquery-AJax",
-    "Backend": "Laravel, Mysql",
-    "images": ["food.png", 5],
-    "Demo": "https://polyfood.shop/"
+    "kind": 1,
+    "name": "HT Bakery",
+    "Frontend": "CSS, Bootstrap 5, JavaScript",
+    "Backend": "",
+    "images": ["bakery.png", 8],
+    "Demo": "https://bakery.namph.tech/asset/html"
   },
   {
     "id": 4,
     "kind": 1,
     "name": "flipped game",
-    "Frontend": "CSS, Bootstrap, JavaScript, TypeScript",
+    "Frontend": "CSS, Bootstrap 5, JavaScript, TypeScript",
     "Backend": "",
     "images": ["latthe.png", 2],
     "Demo": "https://latthe.namph.tech"
@@ -39,9 +39,18 @@
     "id": 5,
     "kind": 1,
     "name": "portfolio",
-    "Frontend": "CSS, Bootstrap, JavaScript",
+    "Frontend": "CSS, Bootstrap 5, JavaScript",
     "Backend": "",
     "images": ["profile.png", 4],
     "Demo": "http://namph.tech/"
+  },
+  {
+    "id": 6,
+    "kind": 2,
+    "name": "PolyFood shop",
+    "Frontend": "CSS, Bootstrap 5, JavaScript, Jquery-AJax",
+    "Backend": "Laravel, Mysql",
+    "images": ["food.png", 5],
+    "Demo": "https://polyfood.shop/"
   }
 ]
