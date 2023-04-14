@@ -183,7 +183,9 @@ hr:not([size]) {
   filter: blur(4px);
 }
 /* resume */
-
+.resume {
+  margin-bottom: 60px;
+}
 .resume__item {
   display: flex;
   gap: 3%;

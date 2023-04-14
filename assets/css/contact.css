@@ -1,5 +1,6 @@
 .wrapper__contact {
   color: var(--txt-color);
+  margin-bottom: 60px;
 }
 .contact__title {
   font-size: 2.4rem;
@@ -45,9 +46,7 @@
   flex-direction: column;
   margin-bottom: 16px;
 }
-.form--group {
-  width: 50%;
-}
+
 .form--group .error {
   height: 32px;
   color: rgb(184, 40, 40);
