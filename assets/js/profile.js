@@ -93,6 +93,7 @@ const modal_render = (itemModal) => {
   document.querySelector(".profile-right-backend").innerHTML =
     itemModal.Backend || "Không có";
   document.querySelector(".linkdemo").href = itemModal.Demo;
+  document.querySelector(".linkdemogit").href = itemModal.link;
 
   render_displaySubimage(profile_container, itemModal, current, 100);
   render_displaySubimage(profile_subcontainer, itemModal, current, 100);

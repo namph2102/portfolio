@@ -111,6 +111,12 @@ body {
   color: var(--txt-color);
   border-radius: 12px;
 }
+@media screen and (max-width: 1024px) {
+  .modal_profile {
+    position: absolute;
+    bottom: unset;
+  }
+}
 .modal_profile h2 {
   font-size: 32px;
   color: var(--main-color);

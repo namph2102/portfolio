@@ -6,6 +6,7 @@
     "Frontend": "CSS, Bootstrap 5, JavaScript, Jquery-AJax",
     "Backend": "Laravel, Mysql",
     "images": ["movie.png", 7],
+    "link": "https://github.com/namph2102/movibes",
     "Demo": "https://movibes.online"
   },
   {
@@ -15,6 +16,7 @@
     "Frontend": "CSS, Bootstrap 5, JavaScript, Jquery-AJax",
     "Backend": "Laravel, Mysql",
     "images": ["music.png", 5],
+    "link": "https://github.com/namph2102/lifemusic",
     "Demo": "https://lifemusic.website"
   },
   {
@@ -24,6 +26,7 @@
     "Frontend": "CSS, Bootstrap 5, JavaScript",
     "Backend": "",
     "images": ["bakery.png", 8],
+    "link": "https://github.com/namph2102/bakery",
     "Demo": "https://bakery.namph.tech/asset/html"
   },
   {
@@ -33,6 +36,7 @@
     "Frontend": "CSS, Bootstrap 5, JavaScript, TypeScript",
     "Backend": "",
     "images": ["latthe.png", 2],
+    "link": "https://github.com/namph2102/flipped-game",
     "Demo": "https://latthe.namph.tech"
   },
   {
@@ -42,6 +46,7 @@
     "Frontend": "CSS, Bootstrap 5, JavaScript",
     "Backend": "",
     "images": ["profile.png", 4],
+    "link": "https://github.com/namph2102/portfolio",
     "Demo": "http://namph.tech/"
   },
   {
@@ -51,6 +56,7 @@
     "Frontend": "CSS, Bootstrap 5, JavaScript, Jquery-AJax",
     "Backend": "Laravel, Mysql",
     "images": ["food.png", 5],
+    "link": "https://github.com/namph2102/polyfood",
     "Demo": "https://polyfood.shop/"
   }
 ]
