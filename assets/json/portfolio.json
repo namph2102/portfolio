@@ -1,8 +1,18 @@
 [
   {
+    "id": 7,
+    "kind": 2,
+    "name": "Movie with React",
+    "Frontend": "ReactJS with TypeScript, TaiwinCSS, Mui",
+    "Backend": "NodeJS (Express), MongoDB",
+    "images": ["react.png", 25],
+    "link": "https://github.com/namph2102/projectVideotv.git",
+    "Demo": "https://movibes.online"
+  },
+  {
     "id": 1,
     "kind": 2,
-    "name": "movie website",
+    "name": "movie with Laravel",
     "Frontend": "CSS, Bootstrap 5, JavaScript, Jquery-AJax",
     "Backend": "Laravel, Mysql",
     "images": ["movie.png", 7],
