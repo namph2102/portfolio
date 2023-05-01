@@ -43,7 +43,7 @@
     "id": 4,
     "kind": 1,
     "name": "flipped game",
-    "Frontend": "CSS, Bootstrap 5, JavaScript, TypeScript",
+    "Frontend": "CSS, Bootstrap 5, TypeScript",
     "Backend": "",
     "images": ["latthe.png", 2],
     "link": "https://github.com/namph2102/flipped-game",
