@@ -36,10 +36,11 @@ import { effectObserve, lazyLoading } from "../module/observe.js";
   // EDUCATION & EXPERIENCE
   const resEducation = await fetch("/assets/json/infos.json");
   const myInfos = await resEducation.json();
- 
+
   const resume__container = document.querySelector(".resume__box .row");
-  resume__container.innerHTML = myInfos.map((info) => {
-    return `
+  resume__container.innerHTML = myInfos
+    .map((info) => {
+      return `
       <div class="resume__box--item col-md-6 col-12" data-id="${info.id}">
         <div class="resume__item">
             <div class="resume__item--attach">
@@ -59,19 +60,20 @@ import { effectObserve, lazyLoading } from "../module/observe.js";
           </div>
         </div>
       `;
-  }).join('');
-  //effect 
-  const resume_listItems=document.querySelectorAll('.resume__box--item');
-  resume_listItems.forEach(re=>effectObserve(re))
+    })
+    .join("");
+  //effect
+  const resume_listItems = document.querySelectorAll(".resume__box--item");
+  resume_listItems.forEach((re) => effectObserve(re));
 })();
 
 //effect info
 const infos_container = document.querySelector(".info");
-effectObserve(infos_container);
+// effectObserve(infos_container);
 
 // effect info cart
 const listCart = document.querySelectorAll(".info__more--cart");
-listCart.forEach((el) => effectObserve(el));
+// listCart.forEach((el) => effectObserve(el));
 
 // resume effect
 const resumes = document.querySelectorAll(".resume__box--item");

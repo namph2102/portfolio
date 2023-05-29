@@ -9,8 +9,8 @@ body {
 }
 
 .info {
-  transform: translate(-80px, 80px);
-  transition: 0.8s linear;
+  /* transform: translate(-80px, 80px);
+  transition: 0.8s linear; */
 }
 .info.effect {
   transform: translate(0, 0);
@@ -66,7 +66,7 @@ body {
   padding: 12px 16px;
   margin-bottom: 5%;
   border-radius: 8px;
-  transform: translate(80px, 80px);
+  /* transform: translate(80px, 80px); */
   transition: 0.8s linear;
 }
 .info__more--cart.effect {
@@ -197,13 +197,13 @@ hr:not([size]) {
   transition: 0.8s linear;
 }
 .resume__box .resume__box--item:nth-child(even) {
-  transform: translateX(80px);
+  /* transform: translateX(80px); */
 }
 .resume__box .resume__box--item:nth-child(odd) {
-  transform: translateX(-80px);
+  /* transform: translateX(-80px); */
 }
 .resume__box .resume__box--item.effect {
-  transform: translateX(0);
+  /* transform: translateX(0); */
 }
 .resume__item--attach {
   position: relative;
