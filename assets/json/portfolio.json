@@ -7,11 +7,7 @@
     "Backend": "NodeJS (Express), MongoDB",
     "images": ["react.png", 25],
     "link": "https://github.com/namph2102/projectVideotv.git",
-<<<<<<< HEAD
     "Demo": "https://www.youtube.com/watch?v=b5uE1f1iY-w&t=168s"
-=======
-    "Demo": "https://www.youtube.com/watch?v=b5uE1f1iY-w&t=148s"
->>>>>>> d36f010e14cc8388b9150f1b9bc990bd5c1263ab
   },
   {
     "id": 1,

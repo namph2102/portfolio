@@ -41,7 +41,7 @@ import { effectObserve, lazyLoading } from "../module/observe.js";
   resume__container.innerHTML = myInfos
     .map((info) => {
       return `
-      <div class="resume__box--item col-md-6 col-12" data-id="${info.id}">
+      <div class="resume__box--item  col-md-6 col-12" data-id="${info.id}">
         <div class="resume__item">
             <div class="resume__item--attach">
               <div class="resume__item--attach__icon">
@@ -69,7 +69,7 @@ import { effectObserve, lazyLoading } from "../module/observe.js";
 
 //effect info
 const infos_container = document.querySelector(".info");
-// effectObserve(infos_container);
+effectObserve(infos_container);
 
 // effect info cart
 const listCart = document.querySelectorAll(".info__more--cart");
@@ -77,7 +77,7 @@ const listCart = document.querySelectorAll(".info__more--cart");
 
 // resume effect
 const resumes = document.querySelectorAll(".resume__box--item");
-resumes.forEach((resume) => effectObserve(resume));
+// resumes.forEach((resume) => effectObserve(resume));
 
 window.addEventListener("load", () => {
   document.documentElement.scrollIntoView();
