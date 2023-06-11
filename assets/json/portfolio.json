@@ -1,8 +1,18 @@
 [
   {
-    "id": 7,
+    "id": 1,
     "kind": 2,
-    "name": "Movie with React",
+    "name": "Dự án Website Chatting",
+    "Frontend": "ReactJS with TypeScript, TaiwinCSS, Mui",
+    "Backend": "NodeJS (Express), MongoDB, Socket.io, OpenAI",
+    "images": ["chatbot.png", 1],
+    "link": "https://github.com/namph2102/chatting",
+    "Demo": "https://chatting-sigma.vercel.app"
+  },
+  {
+    "id": 2,
+    "kind": 2,
+    "name": "Dự án phim",
     "Frontend": "ReactJS with TypeScript, TaiwinCSS, Mui",
     "Backend": "NodeJS (Express), MongoDB",
     "images": ["react.png", 25],
@@ -10,63 +20,13 @@
     "Demo": "https://www.youtube.com/watch?v=b5uE1f1iY-w&t=168s"
   },
   {
-    "id": 1,
-    "kind": 2,
-    "name": "movie with Laravel",
-    "Frontend": "CSS, Bootstrap 5, JavaScript, Jquery-AJax",
-    "Backend": "Laravel, Mysql",
-    "images": ["movie.png", 7],
-    "link": "https://github.com/namph2102/movibes",
-    "Demo": "https://movibes.online"
-  },
-  {
-    "id": 2,
-    "kind": 2,
-    "name": "music player",
-    "Frontend": "CSS, Bootstrap 5, JavaScript, Jquery-AJax",
-    "Backend": "Laravel, Mysql",
-    "images": ["music.png", 5],
-    "link": "https://github.com/namph2102/lifemusic",
-    "Demo": "https://lifemusic.website"
-  },
-  {
     "id": 3,
     "kind": 1,
-    "name": "HT Bakery",
-    "Frontend": "CSS, Bootstrap 5, JavaScript",
-    "Backend": "",
-    "images": ["bakery.png", 8],
-    "link": "https://github.com/namph2102/bakery",
-    "Demo": "https://bakery.namph.tech/asset/html"
-  },
-  {
-    "id": 4,
-    "kind": 1,
-    "name": "flipped game",
-    "Frontend": "CSS, Bootstrap 5, TypeScript",
-    "Backend": "",
-    "images": ["latthe.png", 2],
-    "link": "https://github.com/namph2102/flipped-game",
-    "Demo": "https://latthe.namph.tech"
-  },
-  {
-    "id": 5,
-    "kind": 1,
-    "name": "portfolio",
+    "name": "Trang Portfolio",
     "Frontend": "CSS, Bootstrap 5, JavaScript",
     "Backend": "",
     "images": ["profile.png", 4],
     "link": "https://github.com/namph2102/portfolio",
-    "Demo": "http://namph.tech/"
-  },
-  {
-    "id": 6,
-    "kind": 2,
-    "name": "PolyFood shop",
-    "Frontend": "CSS, Bootstrap 5, JavaScript, Jquery-AJax",
-    "Backend": "Laravel, Mysql",
-    "images": ["food.png", 5],
-    "link": "https://github.com/namph2102/polyfood",
-    "Demo": "https://polyfood.shop/"
+    "Demo": "www.namph.tech/"
   }
 ]
