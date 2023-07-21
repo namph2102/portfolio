@@ -2,8 +2,9 @@
   { "id": 1, "title": "HTML", "image": "/public/image/html.png" },
   { "id": 2, "title": "CSS", "image": "/public/image/css.png" },
   { "id": 3, "title": "JavaScript", "image": "/public/image/js.png" },
-  { "id": 4, "title": "React", "image": "/public/image/react.png" },
-  { "id": 5, "title": "NodeJS", "image": "/public/image/node.png" },
-  { "id": 6, "title": "MySql", "image": "/public/image/mysql.png" },
-  { "id": 5, "title": "MongoDB", "image": "/public/image/mongodb.png" }
+  { "id": 4, "title": "Typescript", "image": "/public/image/typescript.png" },
+  { "id": 5, "title": "React", "image": "/public/image/react.png" },
+  { "id": 6, "title": "NodeJS", "image": "/public/image/node.png" },
+  { "id": 7, "title": "MySql", "image": "/public/image/mysql.png" },
+  { "id": 8, "title": "MongoDB", "image": "/public/image/mongodb.png" }
 ]

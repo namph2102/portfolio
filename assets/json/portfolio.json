@@ -2,17 +2,27 @@
   {
     "id": 1,
     "kind": 2,
-    "name": "Dự án Website Chatting",
+    "name": "Ứng dụng nhắn tin",
     "Frontend": "ReactJS with TypeScript, TaiwinCSS, Mui",
     "Backend": "NodeJS (Express), MongoDB, Socket.io, OpenAI",
-    "images": ["chatbot.png", 1],
+    "images": ["chatbot.png", 6],
     "link": "https://github.com/namph2102/chatting",
-    "Demo": "https://chatting-sigma.vercel.app"
+    "Demo": "https://zecky.online/"
   },
   {
     "id": 2,
     "kind": 2,
-    "name": "Dự án phim",
+    "name": "Tin tức",
+    "Frontend": "NextJS with TypeScript, TaiwinCSS, Mui",
+    "Backend": "NodeJS (Express), MongoDB",
+    "images": ["blog.png", 7],
+    "link": "https://github.com/namph2102/zeckyblog",
+    "Demo": "https://blog.zecky.online/"
+  },
+  {
+    "id": 3,
+    "kind": 2,
+    "name": "Dự án ",
     "Frontend": "ReactJS with TypeScript, TaiwinCSS, Mui",
     "Backend": "NodeJS (Express), MongoDB",
     "images": ["react.png", 25],
@@ -20,7 +30,7 @@
     "Demo": "https://www.youtube.com/watch?v=b5uE1f1iY-w&t=168s"
   },
   {
-    "id": 3,
+    "id": 4,
     "kind": 1,
     "name": "Trang Portfolio",
     "Frontend": "CSS, Bootstrap 5, JavaScript",
@@ -28,5 +38,15 @@
     "images": ["profile.png", 4],
     "link": "https://github.com/namph2102/portfolio",
     "Demo": "www.namph.tech/"
+  },
+  {
+    "id": 5,
+    "kind": 2,
+    "name": "Bảo vệ môi trường",
+    "Frontend": "NextJS with TypeScript",
+    "Backend": "MongoDB",
+    "images": ["forest.png", 3],
+    "link": "https://github.com/hayashi13597/forest-revive",
+    "Demo": "https://www.forest-revive.online/"
   }
 ]
