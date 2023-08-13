@@ -2,7 +2,7 @@
   {
     "id": 1,
     "kind": 2,
-    "name": "Ứng dụng nhắn tin",
+    "name": "Ứng dụng nhắn tin MERN",
     "Frontend": "ReactJS with TypeScript, TaiwinCSS, Mui",
     "Backend": "NodeJS (Express), MongoDB, Socket.io, OpenAI",
     "images": ["chatbot.png", 6],
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "kind": 2,
-    "name": "Tin tức",
+    "name": "Tin tức MERN",
     "Frontend": "NextJS with TypeScript, TaiwinCSS, Mui",
     "Backend": "NodeJS (Express), MongoDB",
     "images": ["blog.png", 7],
@@ -22,12 +22,12 @@
   {
     "id": 3,
     "kind": 2,
-    "name": "Dự án ",
+    "name": "Dự án Xem phim MERN",
     "Frontend": "ReactJS with TypeScript, TaiwinCSS, Mui",
     "Backend": "NodeJS (Express), MongoDB",
     "images": ["react.png", 25],
     "link": "https://github.com/namph2102/projectVideotv.git",
-    "Demo": "https://www.youtube.com/watch?v=b5uE1f1iY-w&t=168s"
+    "Demo": "https://www.videotv.website"
   },
   {
     "id": 4,
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "kind": 2,
-    "name": "Bảo vệ môi trường",
+    "name": "Bảo vệ môi trường NextJS",
     "Frontend": "NextJS with TypeScript",
     "Backend": "MongoDB",
     "images": ["forest.png", 3],
