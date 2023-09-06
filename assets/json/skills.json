@@ -5,7 +5,9 @@
   { "id": 4, "title": "Typescript", "image": "/public/image/typescript.png" },
   { "id": 5, "title": "React", "image": "/public/image/react.png" },
   { "id": 10, "title": "Nextjs", "image": "/public/image/nextjs.png" },
+  { "id": 12, "title": "PHP", "image": "/public/image/php.png" },
   { "id": 6, "title": "NodeJS", "image": "/public/image/node.png" },
+  { "id": 11, "title": "NetJS", "image": "/public/image/nestjs.png" },
   { "id": 7, "title": "MySql", "image": "/public/image/mysql.png" },
   { "id": 8, "title": "MongoDB", "image": "/public/image/mongodb.png" },
   { "id": 9, "title": "Redis", "image": "/public/image/redis.png" }
