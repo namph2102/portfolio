@@ -48,5 +48,15 @@
     "images": ["forest.png", 3],
     "link": "https://github.com/hayashi13597/forest-revive",
     "Demo": "https://www.forest-revive.online/"
+  },
+  {
+    "id": 6,
+    "kind": 2,
+    "name": "Lê Hoàng Diệp Thảo",
+    "Frontend": "NextJS with TypeScript",
+    "Backend": "MongoDB",
+    "images": ["diepthao.png", 3],
+    "link": "#",
+    "Demo": "https://www.lehoangdiepthao.com/en"
   }
 ]
