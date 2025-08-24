@@ -7,7 +7,7 @@
     "Backend": "NodeJS (Express), MongoDB, Socket.io, OpenAI",
     "images": ["chatbot.png", 6],
     "link": "https://github.com/namph2102/chatting",
-    "Demo": "https://chat.namph2002.online/"
+    "Demo": "http://chat.namph2102.online/"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "Backend": "NodeJS (Express), MongoDB",
     "images": ["blog.png", 7],
     "link": "https://github.com/namph2102/zeckyblog",
-    "Demo": "https://blog.namph2002.online/"
+    "Demo": "http://blog.namph2102.online/"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "Backend": "NodeJS (Express), MongoDB",
     "images": ["react.png", 25],
     "link": "https://github.com/namph2102/projectVideotv.git",
-    "Demo": "https://video.namph2002.online/"
+    "Demo": "http://video.namph2102.online/"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "Backend": "",
     "images": ["profile.png", 4],
     "link": "https://github.com/namph2102/portfolio",
-    "Demo": "https://namph2002.online/"
+    "Demo": "http://namph2102.online/"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "Backend": "MongoDB",
     "images": ["forest.png", 3],
     "link": "https://github.com/hayashi13597/forest-revive",
-    "Demo": "https://www.forest-revive.online/"
+    "Demo": "#"
   },
   {
     "id": 6,
